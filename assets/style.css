@@ -79,17 +79,24 @@ nav ul li a:hover{
 
 .home{
   margin-left: 50px;
+  position: relative;
+}
+
+.home-content{
+  display:flex;
 }
 
 .heading{
+  position: relative;
   color:white;
   font-size: 60px;
-  margin-top:90px;
+  margin-top:120px;
   font-weight: 530;
   font-family:'Times New Roman', Times, serif;
 }
 
 .portfolio{
+  position: relative;
   color:#fea609;
   font-size: 22px;
   margin-top:5px;
@@ -98,6 +105,7 @@ nav ul li a:hover{
 }
 
 .bio{
+  position: relative;
   color:white;
   font-size: 18px;
   margin-top:20px;
@@ -121,4 +129,23 @@ button{
   color: white;
   background: #fea609;
 }
+
+
+
+
+.img-box img{
+  position: relative;
+  border-radius:50%;
+  width:340px;
+  height: 340px;
+  float:right;
+  margin-top: 150px;
+  margin-left: 370px;
+  border-radius:5500px;
+  box-shadow: 0 0 37px  30px #fea609;
+  box-shadow: #fea609;
+
+
+}
+
 
