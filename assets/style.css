@@ -536,7 +536,7 @@ textarea{
   
   .header{
     background: #151925;
-    width:1920px;
+    width:1367px;
     height:800px;
   }
   
@@ -608,7 +608,7 @@ textarea{
     height: 340px;
     float:right;
     margin-top: 180px;
-    margin-left: 750px;
+    margin-left: 200px;
     border-radius:5500px;
     box-shadow: 0 0 37px  30px #fea609;
     box-shadow: #fea609;
@@ -669,7 +669,7 @@ textarea{
     line-height: 32px;
     text-align: justify;
     justify-content: space-between;
-    margin-right: 140px;
+    margin-right: 80px;
     text-transform: none;
   }
   
@@ -698,17 +698,17 @@ textarea{
   
   .box-container{
     display: flex;
-    gap:60px;
+    gap:35px;
   }
   
   .box-container .box{
     color: #151925;
     border: 2px solid white;
     border-radius: 10px;
-    gap:40px;
+    gap:35px;
     height:150px;
     width:190px;
-    margin-left:190px;
+    margin-left:98px;
     text-align: center;
   }
   
@@ -758,10 +758,10 @@ textarea{
     color: white;
     border: 2px solid white;
     border-radius: 10px;
-    gap:40px;
+    gap:15px;
     height:380px;
     width:425px;
-    margin-left:110px;
+    margin-left:20px;
     margin-right:20px;
     text-align: center;
   }
@@ -814,20 +814,20 @@ textarea{
   
   .project-container{
     display: flex;
-    gap:120px;
+    gap:35px;
   }
   
   
   .container-block{
     display: grid;
-    gap:40px;
+    gap:10px;
     background: #151925;
     color: white;
     border: 2px solid white;
     border-radius: 10px;
     height:500px;
     width:600px;
-    margin-left:190px;
+    margin-left:35px;
     margin-right:20px;
     text-align: center;
   }
@@ -1012,7 +1012,7 @@ nav ul li a:hover{
 
 .header{
   background: #151925;
-  width:1300px;
+  width:1266px;
   height:800px;
 }
 
