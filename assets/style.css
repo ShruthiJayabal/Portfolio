@@ -1079,7 +1079,7 @@ button{
   height: 340px;
   float:right;
   margin-top: 210px;
-  margin-left: 370px;
+  margin-left: 170px;
   border-radius:5500px;
   box-shadow: 0 0 37px  30px #fea609;
   box-shadow: #fea609;
@@ -1109,7 +1109,7 @@ button{
 
 .about{
   float:right;
-  margin-left: 180px;
+  margin-left: 160px;
   margin-top: 110px;
 }
 
@@ -1140,7 +1140,7 @@ button{
   line-height: 30px;
   text-align: justify;
   justify-content: space-between;
-  margin-right: 130px;
+  margin-right: 90px;
   text-transform: none;
 }
 
@@ -1169,17 +1169,17 @@ button{
 
 .box-container{
   display: flex;
-  gap:40px;
+  gap:35px;
 }
 
 .box-container .box{
   color: #151925;
   border: 2px solid white;
   border-radius: 10px;
-  gap:40px;
+  gap:35px;
   height:150px;
   width:190px;
-  margin-left:120px;
+  margin-left:80px;
   text-align: center;
 }
 
@@ -1203,7 +1203,7 @@ button{
 
 .service-container{
   display: flex;
-  gap:40px;
+  gap:35px;
 }
 
 .services-content{
@@ -1229,11 +1229,11 @@ button{
   color: white;
   border: 2px solid white;
   border-radius: 10px;
-  gap:40px;
+  gap:35px;
   height:380px;
   width:390px;
-  margin-left:55px;
-  margin-right:20px;
+  margin-left:25px;
+  margin-right:25px;
   text-align: center;
 }
 
@@ -1285,20 +1285,20 @@ button{
 
 .project-container{
   display: flex;
-  gap:40px;
+  gap:35px;
 }
 
 
 .container-block{
   display: grid;
-  gap:40px;
+  gap:35px;
   background: #151925;
   color: white;
   border: 2px solid white;
   border-radius: 10px;
   height:500px;
   width:500px;
-  margin-left:150px;
+  margin-left:70px;
   margin-right:20px;
   text-align: center;
 }
