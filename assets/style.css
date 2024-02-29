@@ -2000,59 +2000,65 @@ textarea{
   }
   
   
-
+  nav .menu-btn i{
+    display: block;
+  }
+  #click:checked ~ .menu-btn i:before{
+    content: "\f00d";
+    color:#151925;
+  }
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background:#151925;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+    transition: all 0.3s ease;
+  }
+  #click:checked ~ ul{
+    left: 0;
+  }
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
   nav ul li a{
-    font-size: 17px;
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+  #click:checked ~ ul li a{
+    margin-left: 0px;
   }
  
 
-  label #btn{
-    display: block;
-  }
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -1;
+  width: 100%;
+  padding: 0 30px;
+  color: #1b1b1b;
+}
+.content div{
+  font-size: 40px;
+  font-weight: 700;
+}
 
-  ul{
-    position: fixed;
-    width:100%;
-    height: 100vh;
-    color: white;
-    background:#151925;
-    top:80px;
-    left: -100%;
-    text-align: center;
-    transition: all .5s;
-
-  }
-
-  nav ul li{
-    display: block;
-    margin: 50px 0;
-    line-height: 30px;
-  }
-
-  nav ul li a{
-    font-size: 20px;
-  }
-
-  #check:checked ~ ul{
-    left: 0;
-
-  }
-
-  #check:checked ~ label #btn{
-    display: none;
-    
-  }
-
-  #check:checked ~ label #cancel{
-    display: block;
-    
-  }
 
 
   .header{
     background: #151925;
     width:921px;
-    height:800px;
+    height:990px;
   }
   
   .home{
@@ -2061,14 +2067,15 @@ textarea{
   }
   
   .home-content{
-    display:flex;
+    display:grid;
   }
   
   .heading{
     position: relative;
     color:white;
-    font-size: 40px;
-    margin-top:170px;
+    font-size: 50px;
+    margin-top:0px;
+    text-align: center;
     font-weight: 530;
     font-family:'Times New Roman', Times, serif;
   }
@@ -2076,9 +2083,10 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 20px;
+    font-size: 25px;
     margin-top:5px;
     font-weight: 550;
+    text-align: center;
     font-family:'Times New Roman', Times, serif;
   }
   
@@ -2090,7 +2098,7 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     text-transform: none;
     line-height: 24px;
-    text-align: justify;
+    text-align:center;
   }
   
   button{
@@ -2114,42 +2122,55 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:220px;
-    height: 220px;
-    float:right;
-    margin-top: 190px;
-    margin-left: 170px;
+    width:400px;
+    height: 400px;
+    text-align: center;  
+    margin: 90px;
+    margin-left: 10px;
+    margin-top: 80px;
+    margin-right: 250px;
     border-radius:5500px;
-    box-shadow: 0 0 30px  20px #fea609;
+    box-shadow: 0 0 30px  30px #fea609;
     box-shadow: #fea609;
   }
+
+  .home-content{
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-content: center;
+}
+.home{
+    order: 2;
+    text-align: center;
+}
   
   /* About */
   
   .about-content{
     background:#323846;
     width:100%;
-    height:740px;
-    display: flex;
-    margin-top: 200px;
+    height:1050px;
+    display: grid;
+    margin-top: 90px;
   }
   
   .img-box1 img{
     position: relative;
     border-radius:50%;
-    width:220px;
-    height: 220px;
-    float:left;
-    margin-top: 160px;
-    margin-left:90px;
+    width:400px;
+    height: 400px;
+    float:center;
+    margin-top: 50px;
+    margin-left:250px;
     border-radius:5500px;
     border: 10px solid #fea609;
   }
   
   .about{
-    float:right;
+   text-align: center;
     margin-left: 90px;
-    margin-top: 90px;
+    margin-right: 80px;
+    margin-top: 70px;
   }
   
   .about-me{
@@ -2179,12 +2200,15 @@ textarea{
     line-height: 30px;
     text-align: justify;
     justify-content: space-between;
-    margin-right: 90px;
     text-transform: none;
+    text-align: center;
   }
+
+ 
+
   
   
-  
+
   /* Skills */
   
   .skills-content{
@@ -2465,4 +2489,4 @@ textarea{
   }
   
     
-  }
+}
