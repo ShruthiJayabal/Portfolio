@@ -1985,7 +1985,7 @@ textarea{
   
   nav{
     display: flex;
-    position: fixed;
+    position: absolute;
     width: 100%;
     color: white;
     background-color: #151925;
@@ -1993,68 +1993,17 @@ textarea{
     padding: 10px 0;
     align-items: center;
     justify-content: space-between;
+    display: block;
   }
   
   nav ul li a:hover{
     color:#fea609; 
   }
+
   
-  
-  nav .menu-btn i{
-    display: block;
-  }
-  #click:checked ~ .menu-btn i:before{
-    content: "\f00d";
-    color:#151925;
-  }
-  nav ul{
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background:#151925;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  #click:checked ~ ul{
-    left: 0;
-  }
-  nav ul li{
-    width: 100%;
-    margin: 40px 0;
-  }
-  nav ul li a{
-    width: 100%;
-    margin-left: -100%;
-    display: block;
-    font-size: 20px;
-    transition: 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  }
-  #click:checked ~ ul li a{
-    margin-left: 0px;
-  }
  
 
-.content{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: -1;
-  width: 100%;
-  padding: 0 30px;
-  color: #1b1b1b;
-}
-.content div{
-  font-size: 40px;
-  font-weight: 700;
-}
-
-
-
+ 
   .header{
     background: #151925;
     width:921px;
@@ -2073,7 +2022,7 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 50px;
+    font-size: 60px;
     margin-top:0px;
     text-align: center;
     font-weight: 530;
@@ -2083,7 +2032,7 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 25px;
+    font-size: 27px;
     margin-top:5px;
     font-weight: 550;
     text-align: center;
@@ -2093,7 +2042,7 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 16px;
+    font-size: 20px;
     margin-top:20px;
     font-family:'Times New Roman', Times, serif;
     text-transform: none;
@@ -2102,18 +2051,18 @@ textarea{
   }
   
   button{
-    width:170px;
-    font-size: 17px;
-    height:40px;
+    width:176px;
+    font-size: 20px;
+    height:50px;
     border-radius: 30px;
     color: white;
     background: #fea609;
   }
   
   .btn{
-    font-size: 17px;
-    width:110px;
-    height:40px;
+    font-size: 20px;
+    width:115px;
+    height:50px;
     border-radius: 30px;
     color: white;
     background: #fea609;
@@ -2149,9 +2098,9 @@ textarea{
   .about-content{
     background:#323846;
     width:100%;
-    height:1050px;
+    height:1150px;
     display: grid;
-    margin-top: 90px;
+    margin-top: 65px;
   }
   
   .img-box1 img{
@@ -2174,7 +2123,8 @@ textarea{
   }
   
   .about-me{
-    font-size: 35px;
+    text-align: center;
+    font-size: 40px;
     color: white;
     font-family:'Times New Roman', Times, serif;
   }
@@ -2186,19 +2136,19 @@ textarea{
   }
   
   .tag{
-    font-size: 25px;
+    text-align: center;
+    font-size: 27px;
     font-family:'Times New Roman', Times, serif;
     color: white;
     margin-top: 12px;
   }
   
   .description{
-    font-size: 19px;
+    font-size: 25px;
     margin-top: 40px;
     font-family:'Times New Roman', Times, serif;
     color: white;
     line-height: 30px;
-    text-align: justify;
     justify-content: space-between;
     text-transform: none;
     text-align: center;
@@ -2214,11 +2164,11 @@ textarea{
   .skills-content{
     background-color: #151925;
     width:100%;
-    height:740px;
+    height:760px;
   }
   
   .skills{
-    font-size: 35px;
+    font-size: 40px;
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2240,9 +2190,9 @@ textarea{
     border: 2px solid white;
     border-radius: 10px;
     gap:30px;
-    height:140px;
-    width:150px;
-    margin-left:80px;
+    height:150px;
+    width:160px;
+    margin-left:38px;
     text-align: center;
   }
   
@@ -2265,19 +2215,19 @@ textarea{
   /*services*/
   
   .service-container{
-    display: flex;
+    display: grid;
     gap:35px;
   }
   
   .services-content{
     background-color: #323846;
     width:100%;
-    height:740px; 
+    height:1500px; 
   }
   
   
   .services{
-    font-size: 35px;
+    font-size: 40px;
     color: #fea609;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2287,15 +2237,14 @@ textarea{
   
   .container{
     display: grid;
-    gap:40px;
     background: #151925;
     color: white;
     border: 2px solid white;
     border-radius: 10px;
-    gap:35px;
-    height:380px;
-    width:400px;
-    margin-left:25px;
+    gap:20px;
+    height:370px;
+    width:570px;
+    margin-left:170px;
     margin-right:25px;
     text-align: center;
   }
@@ -2309,18 +2258,18 @@ textarea{
   }
   
   .container .title{
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     color: white;
   }
   
   
   .services-about{
-    font-size: 15px; 
+    font-size: 22px; 
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
-    line-height: 24px;
+    line-height: 29px;
     text-align: justify;
     text-transform: none;
     margin-left: 30px;
@@ -2335,12 +2284,12 @@ textarea{
   .recent-works{
     background-color: #151925;
     width:100%;
-    height:740px;
+    height:800px;
   
   }
   
   .works{
-    font-size: 35px;
+    font-size: 40px;
     color: #fea609;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2359,35 +2308,35 @@ textarea{
     color: white;
     border: 2px solid white;
     border-radius: 10px;
-    height:480px;
-    width:400px;
-    margin-left:80px;
+    height:555px;
+    width:410px;
+    margin-left:20px;
     margin-right:20px;
     text-align: center;
   }
   
   .container-block img{
     height:120px;
-    width:300px;
-    margin-left: 50px;
+    width:350px;
+    margin-left: 25px;
     text-align: center;
     margin-top: 20px;
     border-radius: 10px;
   }
   
   .container-block .title{
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     color: white;
   }
   
   
   .projects-about{
-    font-size: 17px; 
+    font-size: 21px; 
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
-    line-height: 24px;
+    line-height: 29px;
     text-align: justify;
     text-transform: none;
     margin-left: 30px;
@@ -2397,7 +2346,7 @@ textarea{
   
    
   .container-block .live{
-    margin-top: 420px;
+    margin-top: 490px;
     margin-left: 30px;
     position: absolute;
     font-size: 17px;
@@ -2410,7 +2359,7 @@ textarea{
   
   
   .container-block .demo{
-    margin-top: 420px;
+    margin-top: 490px;
     margin-left: 180px;
     position: absolute;
     font-size: 17px;
