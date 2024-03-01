@@ -192,16 +192,76 @@ button{
   border-radius: 30px;
   color: white;
   background: #fea609;
+  text-decoration: none;
 }
 
-.btn{
+.btn {
   font-size: 17px;
   width:110px;
   height:40px;
   border-radius: 30px;
   color: white;
   background: #fea609;
+  text-decoration:none;
 }
+
+.hire{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: white;
+  background: #fea609;
+  text-decoration:none;
+}
+
+button a{
+  color: white;
+  text-decoration: none;
+}
+
+button:hover{
+  width:170px;
+  font-size: 17px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background: #151925;
+  border: 3px solid #fea609;
+  /* text-decoration: none; */
+}
+
+.btn:hover{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background: #151925;
+  border: 3px solid #fea609;
+  /* text-decoration:none; */
+}
+
+
+.hire:hover{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background: #323846;
+  border: 3px solid #fea609;
+  text-decoration:none;
+}
+
+button{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
 
 .img-box img{
   position: relative;
@@ -476,6 +536,9 @@ button{
   background: #fea609;
 }
 
+.live a{
+  text-decoration: none;
+}
 
 .container-block .demo{
   margin-top: 420px;
@@ -487,6 +550,34 @@ button{
   border-radius: 30px;
   color: white;
   background: #fea609;
+}
+
+ 
+.container-block .live:hover{
+  margin-top: 420px;
+  margin-left: 30px;
+  position: absolute;
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background:#151925;
+  border: 3px solid #fea609;
+}
+
+
+.container-block .demo:hover{
+  margin-top: 420px;
+  margin-left: 180px;
+  position: absolute;
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background:#151925;
+  border: 3px solid #fea609;
 }
 
 
