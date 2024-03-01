@@ -498,7 +498,7 @@ button{
 .contact{
   background-color:  #323846;
   width:100%;
-  height:740px;
+  height:820px;
 
 }
 
@@ -551,13 +551,36 @@ textarea{
 }
 
 
+.send:hover{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: white;
+  border: 3px solid #fea609;
+  background: #323846;
+  margin-right: 330px;
+}
+
+
+
 .contact-me{
   text-align: center;
 
 }
 
 
+.rights{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
 
+.update{
+  text-align: center;
+  color:white;
+
+}
 
 
 
@@ -690,7 +713,47 @@ textarea{
     color: white;
     background: #fea609;
   }
+
+  .hire{
+    font-size: 18px;
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    color: white;
+    background: #fea609;
+  }
   
+  button:hover{
+    width:180px;
+    font-size: 18px;
+    height:45px;
+    border-radius: 30px;
+    color: #fea609;
+    background:#151925;
+    border: 3px solid #fea609;
+  }
+  
+  .btn:hover{
+    font-size: 18px;
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    color: #fea609;
+    background:#151925;
+    border: 3px solid #fea609;
+  }
+
+  .hire:hover{
+    font-size: 18px;
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    color: #fea609;
+    background:#323846;
+    border: 3px solid #fea609;
+  
+  }
+
   .img-box img{
     position: relative;
     border-radius:50%;
@@ -876,7 +939,7 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
-    line-height: 24px;
+    line-height: 28px;
     text-align: justify;
     text-transform: none;
     margin-left: 30px;
@@ -939,11 +1002,11 @@ textarea{
   
   
   .projects-about{
-    font-size: 18px; 
+    font-size: 20px; 
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
-    line-height: 25px;
+    line-height: 28px;
     text-align: justify;
     text-transform: none;
     margin-left: 30px;
@@ -978,7 +1041,33 @@ textarea{
   }
   
   
+   
+  .container-block .live:hover{
+    margin-top: 420px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 18px;
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    color:#fea609;
+    background: #151925;
+    border: 3px solid #fea609;
+  }
   
+  
+  .container-block .demo:hover{
+    margin-top: 420px;
+    margin-left: 180px;
+    position: absolute;
+    font-size: 18px;
+    width:120px;
+    height:45px;
+    border-radius: 30px;
+    color:#fea609;
+    background: #151925;
+    border: 3px solid #fea609;
+  }
   
   /* Contact*/
   
@@ -986,7 +1075,7 @@ textarea{
   .contact{
     background-color:  #323846;
     width:100%;
-    height:740px;
+    height:830px;
   
   }
   
@@ -1038,11 +1127,36 @@ textarea{
     margin-right: 350px;
   }
   
+  .send:hover{
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background:#323846;
+    border: 3px solid #fea609;
+    margin-right: 350px;
+  }
+  
   
   .contact-me{
     text-align: center;
   
   }
+
+  
+.rights{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+
+.update{
+  text-align: center;
+  color:white;
+
+}
+  
   
   .contact-me .fab{
     font-size: 35px; 
@@ -1051,6 +1165,8 @@ textarea{
   .contact-me .fas{
     font-size: 35px;
   }
+
+
 
 }
 
@@ -1179,6 +1295,47 @@ button{
   border-radius: 30px;
   color: white;
   background: #fea609;
+}
+
+
+.hire{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: white;
+  background: #fea609;
+}
+
+button:hover{
+  width:170px;
+  font-size: 17px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background: #151925;
+  border: 3px solid #fea609;
+}
+
+.btn:hover{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background: #151925;
+  border: 3px solid #fea609;
+}
+
+
+.hire:hover{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color: #fea609;
+  background:#323846;
+  border: 3px solid #fea609;
 }
 
 .img-box img{
@@ -1468,6 +1625,34 @@ button{
 }
 
 
+.container-block .live:hover{
+  margin-top: 420px;
+  margin-left: 30px;
+  position: absolute;
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color:#fea609;
+  background:#151925;
+  border: 3px solid #fea609;
+}
+
+
+.container-block .demo:hover{
+  margin-top: 420px;
+  margin-left: 180px;
+  position: absolute;
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color:#fea609;
+  background:#151925;
+  border: 3px solid #fea609;
+}
+
+
 
 
 /* Contact*/
@@ -1476,7 +1661,7 @@ button{
 .contact{
   background-color:  #323846;
   width:100%;
-  height:740px;
+  height:820px;
 
 }
 
@@ -1529,11 +1714,34 @@ textarea{
 }
 
 
+.send:hover{
+  font-size: 17px;
+  width:110px;
+  height:40px;
+  border-radius: 30px;
+  color:#fea609;
+  background:#323846;
+  border: 3px solid #fea609;
+  margin-right: 330px;
+}
+
+
 .contact-me{
   text-align: center;
 
 }
 
+.rights{
+  text-align: center;
+  color:white;
+  font-size: 20px;
+}
+
+.update{
+  text-align: center;
+  color:white;
+
+}
   
 }
 
@@ -1654,6 +1862,47 @@ textarea{
     border-radius: 30px;
     color: white;
     background: #fea609;
+  }
+
+  
+  .hire{
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: white;
+    background: #fea609;
+  }
+
+
+  button:hover{
+    width:170px;
+    font-size: 17px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #151925;
+    border: 3px solid #fea609;
+  }
+  
+  .btn:hover{
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #151925;
+    border: 3px solid #fea609;
+  }
+
+  .hire:hover{
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #323846;
+    border: 3px solid #fea609;
   }
   
   .img-box img{
@@ -1942,6 +2191,34 @@ textarea{
     background: #fea609;
   }
   
+
+  .container-block .live:hover{
+    margin-top: 420px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #151925;
+    border: 3 px solid #fea609;
+  }
+  
+  
+  .container-block .demo:hover{
+    margin-top: 420px;
+    margin-left: 180px;
+    position: absolute;
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #151925;
+    border: 3px solid #fea609;
+  }
+  
   
   
   
@@ -1951,7 +2228,7 @@ textarea{
   .contact{
     background-color:  #323846;
     width:100%;
-    height:740px;
+    height:820px;
   
   }
   
@@ -2002,10 +2279,34 @@ textarea{
     background: #fea609;
     margin-right: 330px;
   }
+    
+
+  .send:hover{
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color:#fea609;
+    background: #323846;
+    border: 3px solid #fea609;
+    margin-right: 330px;
+  }
   
   
   .contact-me{
     text-align: center;
+  
+  }
+
+  .rights{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+  }
+
+  .update{
+    text-align: center;
+    color:white;
   
   }
   
@@ -2069,6 +2370,7 @@ textarea{
   }
 
   ul{
+    font-size: 35px;
     float:left;
     justify-content: start;
     flex-direction: column;
@@ -2077,8 +2379,8 @@ textarea{
     top: 50px;
     right: -300px;
     background:#151925;
-    width: 210px;
-    height: 320px;
+    width: 240px;
+    height: 460px;
     padding-top: 15px;
   }
 
@@ -2091,8 +2393,8 @@ textarea{
   }
  
   ul li a{
-    padding: 20px;
-    font-size: 30px;
+    padding: 25px;
+    font-size: 40px;
     width: 100%;
 
   }
@@ -2100,7 +2402,7 @@ textarea{
   .header{
     background: #151925;
     width:921px;
-    height:1030px;
+    height:1060px;
   }
   
   .home{
@@ -2165,13 +2467,23 @@ textarea{
     background: #fea609;
   }
 
+  .hire{
+    font-size: 20px;
+    width:115px;
+    height:50px;
+    margin-right: 70px;
+    border-radius: 30px;
+    color:white;
+    background: #fea609;
+  }
+
   button:hover{
     width:176px;
     font-size: 20px;
     height:50px;
     border-radius: 30px;
     border: 3px solid #fea609;
-    color: #fea609;
+    color:white;
     background:#151925;
   }
   
@@ -2184,6 +2496,17 @@ textarea{
     border: 3px solid #fea609;
     color: #fea609;
     background:#151925;
+  }
+
+  .hire:hover{
+    font-size: 20px;
+    width:115px;
+    height:50px;
+    margin-right: 70px;
+    border-radius: 30px;
+    border: 3px solid #fea609;
+    color: #fea609;
+    background:#323846;
   }
   
   .img-box img{
@@ -2403,7 +2726,7 @@ textarea{
   .recent-works{
     background-color: #151925;
     width:100%;
-    height:800px;
+    height:830px;
   
   }
   
@@ -2427,7 +2750,7 @@ textarea{
     color: white;
     border: 2px solid white;
     border-radius: 10px;
-    height:555px;
+    height:565px;
     width:410px;
     margin-left:20px;
     margin-right:20px;
@@ -2488,6 +2811,35 @@ textarea{
     color: white;
     background: #fea609;
   }
+
+
+    
+  .container-block .live:hover{
+    margin-top: 490px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    border: 3px solid #fea609;
+    background: #151925;
+  }
+  
+  
+  .container-block .demo:hover{
+    margin-top: 490px;
+    margin-left: 180px;
+    position: absolute;
+    font-size: 17px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    border: 3px solid #fea609;
+    background: #151925;
+  }
   
   
   
@@ -2498,7 +2850,7 @@ textarea{
   .contact{
     background-color:  #323846;
     width:100%;
-    height:740px;
+    height:860px;
   
   }
   
@@ -2550,9 +2902,33 @@ textarea{
     margin-right: 420px;
   }
   
+
+  .send:hover{
+    font-size: 20px;
+    width:110px;
+    height:40px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #323846;
+    border: 3px solid #fea609;
+    margin-right: 420px;
+  }
+  
   
   .contact-me{
     text-align: center;
+  
+  }
+
+  .rights{
+    text-align: center;
+    color:white;
+    font-size: 20px;
+  }
+
+  .update{
+    text-align: center;
+    color:white;
   
   }
   
