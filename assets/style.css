@@ -2439,7 +2439,7 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 25px;
+    font-size: 22px;
     margin-top:20px;
     margin-right: 60px;
     font-family:'Times New Roman', Times, serif;
@@ -2454,8 +2454,10 @@ textarea{
     height:50px;
     border-radius: 30px;
     color:white;
-    background: #fea609;
+    background-color: #fea609; 
+    text-decoration:none; 
   }
+  
   
   .btn{
     font-size: 20px;
@@ -2465,6 +2467,7 @@ textarea{
     border-radius: 30px;
     color:white;
     background: #fea609;
+    text-decoration: none;
   }
 
   .hire{
