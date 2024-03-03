@@ -144,7 +144,7 @@ nav input:checked ~ ul{
 .header{
   background: #151925;
   width:100%;
-  height:800px;
+  height:60px;
 }
 
 .home{
@@ -154,13 +154,16 @@ nav input:checked ~ ul{
 
 .home-content{
   display:flex;
+  background: #151925;
+  width:100%;
+  height:700px;
 }
 
 .heading{
   position: relative;
   color:white;
   font-size: 60px;
-  margin-top:210px;
+  margin-top:180px;
   font-weight: 530;
   font-family:'Times New Roman', Times, serif;
 }
@@ -266,11 +269,11 @@ button{
 .img-box img{
   position: relative;
   border-radius:50%;
-  width:340px;
-  height: 340px;
+  width:300px;
+  height: 300px;
   float:right;
-  margin-top: 210px;
-  margin-left: 370px;
+  margin-top: 200px;
+  margin-left: 390px;
   border-radius:5500px;
   box-shadow: 0 0 37px  30px #fea609;
   box-shadow: #fea609;
@@ -283,14 +286,14 @@ button{
   width:100%;
   height:740px;
   display: flex;
-  margin-top: 200px;
+  margin-top: 0px;
 }
 
 .img-box1 img{
   position: relative;
   border-radius:50%;
-  width:340px;
-  height: 340px;
+  width:300px;
+  height: 300px;
   float:left;
   margin-top: 160px;
   margin-left:110px;
@@ -305,7 +308,7 @@ button{
 }
 
 .about-me{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   font-family:'Times New Roman', Times, serif;
 }
@@ -317,7 +320,7 @@ button{
 }
 
 .tag{
-  font-size: 26px;
+  font-size: 25px;
   font-family:'Times New Roman', Times, serif;
   color: white;
   margin-top: 12px;
@@ -346,7 +349,7 @@ button{
 }
 
 .skills{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-align: center;
   font-family:'Times New Roman', Times, serif;
@@ -368,15 +371,15 @@ button{
   border: 2px solid white;
   border-radius: 10px;
   gap:40px;
-  height:150px;
-  width:190px;
+  height:140px;
+  width:180px;
   margin-left:120px;
   text-align: center;
 }
 
 .box-container .box img{
   text-align: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 
@@ -405,7 +408,7 @@ button{
 
 
 .services{
-  font-size: 40px;
+  font-size: 35px;
   color: #fea609;
   text-align: center;
   font-family:'Times New Roman', Times, serif;
@@ -496,8 +499,8 @@ button{
 
 .container-block img{
   height:150px;
-  width:400px;
-  margin-left: 50px;
+  width:440px;
+  margin-left: 30px;
   text-align: center;
   margin-top: 20px;
   border-radius: 10px;
@@ -529,8 +532,8 @@ button{
   margin-left: 30px;
   position: absolute;
   font-size: 17px;
-  width:110px;
-  height:40px;
+  width:100px;
+  height:35px;
   border-radius: 30px;
   color: white;
   background: #fea609;
@@ -545,8 +548,8 @@ button{
   margin-left: 180px;
   position: absolute;
   font-size: 17px;
-  width:110px;
-  height:40px;
+  width:100px;
+  height:35px;
   border-radius: 30px;
   color: white;
   background: #fea609;
@@ -554,12 +557,12 @@ button{
 
  
 .container-block .live:hover{
-  margin-top: 420px;
+  margin-top: 440px;
   margin-left: 30px;
   position: absolute;
   font-size: 17px;
-  width:110px;
-  height:40px;
+  width:100px;
+  height:35px;
   border-radius: 30px;
   color: #fea609;
   background:#151925;
@@ -568,12 +571,12 @@ button{
 
 
 .container-block .demo:hover{
-  margin-top: 420px;
+  margin-top: 440px;
   margin-left: 180px;
   position: absolute;
   font-size: 17px;
-  width:110px;
-  height:40px;
+  width:100px;
+  height:35px;
   border-radius: 30px;
   color: #fea609;
   background:#151925;
@@ -594,7 +597,7 @@ button{
 }
 
 .details{
-  font-size: 40px;
+  font-size: 35px;
   color: white;
   text-align: center;
   font-family:'Times New Roman', Times, serif;
@@ -633,8 +636,8 @@ textarea{
 
 .send{
   font-size: 17px;
-  width:110px;
-  height:40px;
+  width:100px;
+  height:35px;
   border-radius: 30px;
   color: white;
   background: #fea609;
@@ -644,8 +647,8 @@ textarea{
 
 .send:hover{
   font-size: 17px;
-  width:110px;
-  height:40px;
+  width:100px;
+  height:35px;
   border-radius: 30px;
   color: white;
   border: 3px solid #fea609;
@@ -664,12 +667,13 @@ textarea{
 .rights{
   text-align: center;
   color:white;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .update{
   text-align: center;
   color:white;
+  font-size: 12px;
 
 }
 
@@ -753,14 +757,14 @@ textarea{
     display:flex;
     background: #151925;
     width:1211px;
-    height:600px;
+    height:500px;
   }
   
   .heading{
     position: relative;
     color:white;
-    font-size: 70px;
-    margin-top:160px;
+    font-size: 50px;
+    margin-top:110px;
     font-weight: 530;
     font-family:'Times New Roman', Times, serif;
   }
@@ -768,7 +772,7 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 25px;
+    font-size: 20px;
     margin-top:5px;
     font-weight: 550;
     font-family:'Times New Roman', Times, serif;
@@ -777,7 +781,7 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 20px;
+    font-size: 17px;
     margin-top:20px;
     font-family:'Times New Roman', Times, serif;
     text-transform: none;
@@ -792,26 +796,26 @@ textarea{
   
   button{
     width:180px;
-    font-size: 18px;
-    height:45px;
+    font-size: 17px;
+    height:40px;
     border-radius: 30px;
     color: white;
     background: #fea609;
   }
   
   .btn{
-    font-size: 18px;
+    font-size: 17px;
     width:120px;
-    height:45px;
+    height:40px;
     border-radius: 30px;
     color: white;
     background: #fea609;
   }
 
   .hire{
-    font-size: 18px;
+    font-size: 17px;
     width:120px;
-    height:45px;
+    height:40px;
     border-radius: 30px;
     color: white;
     background: #fea609;
@@ -819,8 +823,8 @@ textarea{
   
   button:hover{
     width:180px;
-    font-size: 18px;
-    height:45px;
+    font-size: 17px;
+    height:40px;
     border-radius: 30px;
     color: #fea609;
     background:#151925;
@@ -828,9 +832,9 @@ textarea{
   }
   
   .btn:hover{
-    font-size: 18px;
+    font-size: 17px;
     width:120px;
-    height:45px;
+    height:40px;
     border-radius: 30px;
     color: #fea609;
     background:#151925;
@@ -838,9 +842,9 @@ textarea{
   }
 
   .hire:hover{
-    font-size: 18px;
+    font-size: 17px;
     width:120px;
-    height:45px;
+    height:40px;
     border-radius: 30px;
     color: #fea609;
     background:#323846;
@@ -851,11 +855,11 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:230px;
-    height: 230px;
+    width:240px;
+    height: 240px;
     float:right;
-    margin-top: 180px;
-    margin-left: 200px;
+    margin-top: 140px;
+    margin-left: 240px;
     border-radius:5500px;
     box-shadow: 0 0 37px  30px #fea609;
     box-shadow: #fea609;
@@ -865,17 +869,17 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:100%;
-    height:740px;
+    width:1211px;
+    height:690px;
     display: flex;
-    margin-top: 160px;
+    margin-top: 0px;
   }
   
   .img-box1 img{
     position: relative;
     border-radius:50%;
-    width:340px;
-    height: 340px;
+    width:240px;
+    height: 240px;
     float:left;
     margin-top: 160px;
     margin-left:110px;
@@ -885,12 +889,12 @@ textarea{
   
   .about{
     float:right;
-    margin-left: 180px;
+    margin-left: 120px;
     margin-top: 110px;
   }
   
   .about-me{
-    font-size: 45px;
+    font-size: 32px;
     color: white;
     font-family:'Times New Roman', Times, serif;
   }
@@ -902,14 +906,14 @@ textarea{
   }
   
   .tag{
-    font-size: 28px;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     color: white;
     margin-top: 12px;
   }
   
   .description{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 40px;
     font-family:'Times New Roman', Times, serif;
     color: white;
@@ -926,12 +930,12 @@ textarea{
   
   .skills-content{
     background-color: #151925;
-    width:100%;
+    width:1211px;
     height:740px;
   }
   
   .skills{
-    font-size: 45px;
+    font-size: 30px;
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -945,23 +949,25 @@ textarea{
   
   .box-container{
     display: flex;
-    gap:35px;
+    gap:30px;
   }
   
   .box-container .box{
     color: #151925;
     border: 2px solid white;
     border-radius: 10px;
-    gap:35px;
-    height:150px;
-    width:190px;
-    margin-left:98px;
+    gap:30px;
+    height:110px;
+    width:150px;
+    margin-left:105px;
     text-align: center;
   }
   
   .box-container .box img{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 18px;;
+    width:80px;
+    height:70px;
   }
   
   
@@ -984,13 +990,13 @@ textarea{
   
   .services-content{
     background-color: #323846;
-    width:100%;
+    width:1211px;
     height:740px; 
   }
   
   
   .services{
-    font-size: 45px;
+    font-size: 30px;
     color: #fea609;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -1000,14 +1006,13 @@ textarea{
   
   .container{
     display: grid;
-    gap:40px;
     background: #151925;
     color: white;
     border: 2px solid white;
     border-radius: 10px;
-    gap:15px;
-    height:380px;
-    width:425px;
+    gap:10px;
+    height:440px;
+    width:500px;
     margin-left:20px;
     margin-right:20px;
     text-align: center;
@@ -1016,13 +1021,14 @@ textarea{
   .container img{
     height:50px;
     width:60px;
-    margin-left: 180px;
+    margin-left: 130px;
     text-align: center;
     margin-top: 20px;
   }
   
   .container .title{
-    font-size: 28px;
+    margin-top: 10px;
+    font-size: 21px;
     font-family:'Times New Roman', Times, serif;
     color: white;
   }
@@ -1047,13 +1053,13 @@ textarea{
   
   .recent-works{
     background-color: #151925;
-    width:100%;
-    height:740px;
+    width:1211px;
+    height:760px;
   
   }
   
   .works{
-    font-size: 45px;
+    font-size: 30px;
     color: #fea609;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -1073,30 +1079,30 @@ textarea{
     border: 2px solid white;
     border-radius: 10px;
     height:500px;
-    width:600px;
-    margin-left:35px;
+    width:500px;
+    margin-left:50px;
     margin-right:20px;
     text-align: center;
   }
   
   .container-block img{
     height:160px;
-    width:480px;
-    margin-left: 60px;
+    width:430px;
+    margin-left: 30px;
     text-align: center;
     margin-top: 20px;
     border-radius: 10px;
   }
   
   .container-block .title{
-    font-size: 28px;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
     color: white;
   }
   
   
   .projects-about{
-    font-size: 20px; 
+    font-size: 18px; 
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
@@ -1113,9 +1119,9 @@ textarea{
     margin-top: 420px;
     margin-left: 30px;
     position: absolute;
-    font-size: 18px;
-    width:120px;
-    height:45px;
+    font-size: 17px;
+    width:105px;
+    height:40px;
     border-radius: 30px;
     color: white;
     background: #fea609;
@@ -1126,9 +1132,9 @@ textarea{
     margin-top: 420px;
     margin-left: 180px;
     position: absolute;
-    font-size: 18px;
-    width:120px;
-    height:45px;
+    font-size: 17px;
+    width:105px;
+    height:40px;
     border-radius: 30px;
     color: white;
     background: #fea609;
@@ -1140,9 +1146,9 @@ textarea{
     margin-top: 420px;
     margin-left: 30px;
     position: absolute;
-    font-size: 18px;
-    width:120px;
-    height:45px;
+    font-size: 17px;
+    width:105px;
+    height:40px;
     border-radius: 30px;
     color:#fea609;
     background: #151925;
@@ -1154,9 +1160,9 @@ textarea{
     margin-top: 420px;
     margin-left: 180px;
     position: absolute;
-    font-size: 18px;
-    width:120px;
-    height:45px;
+    font-size: 17px;
+    width:105px;
+    height:40px;
     border-radius: 30px;
     color:#fea609;
     background: #151925;
@@ -1168,13 +1174,13 @@ textarea{
   
   .contact{
     background-color:  #323846;
-    width:100%;
+    width:1211px;
     height:830px;
   
   }
   
   .details{
-    font-size: 45px;
+    font-size: 30px;
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -1195,7 +1201,7 @@ textarea{
     border: 2px solid white;
     background-color: #323846;
     width:470px;
-    height:60px;
+    height:50px;
     border-radius: 10px;
     padding: 12px;
   }
@@ -1242,12 +1248,13 @@ textarea{
 .rights{
   text-align: center;
   color:white;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .update{
   text-align: center;
   color:white;
+  font-size: 12px;
 
 }
   
@@ -2300,7 +2307,7 @@ textarea{
   
 
   .container-block .live:hover{
-    margin-top: 420px;
+    margin-top: 430px;
     margin-left: 30px;
     position: absolute;
     font-size: 17px;
@@ -2314,7 +2321,7 @@ textarea{
   
   
   .container-block .demo:hover{
-    margin-top: 420px;
+    margin-top: 430px;
     margin-left: 180px;
     position: absolute;
     font-size: 17px;
