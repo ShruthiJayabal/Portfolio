@@ -2674,7 +2674,7 @@ textarea{
     background:#323846;
     width:921px;
     margin-top: 0px;
-    height:1260px;
+    height:1300px;
     display: grid;
     column-gap: 0;
     align-items: center;
@@ -2725,7 +2725,7 @@ textarea{
   }
   
   .description{
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 40px;
     font-family:'Times New Roman', Times, serif;
     color: white;
