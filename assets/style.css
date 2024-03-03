@@ -2528,6 +2528,14 @@ textarea{
     margin-left: 50px;
     position: relative;
   }
+
+  .icons{
+    text-align: center;
+    justify-content: center;
+    
+
+  }
+
   
   .home-content{
     background: #151925;
@@ -2666,7 +2674,7 @@ textarea{
     background:#323846;
     width:921px;
     margin-top: 0px;
-    height:1230px;
+    height:1260px;
     display: grid;
     column-gap: 0;
     align-items: center;
@@ -2687,14 +2695,16 @@ textarea{
   
   .about{
     text-align: center;
-    margin-top: 70px;
+    justify-content: center;
+    margin-top: 30px;
   }
   
   .about-me{
     text-align: center;
+    justify-content: center;
     font-size: 50px;
     color: white;
-    margin-right: 70px;
+    margin-right: 160px;
     font-family:'Times New Roman', Times, serif;
   }
   
@@ -2711,7 +2721,7 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     color: white;
     margin-top: 12px;
-    margin-right: 70px;
+    margin-right: 160px;
   }
   
   .description{
@@ -2720,12 +2730,17 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     color: white;
     line-height: 30px;
-    justify-content: space-between;
+    justify-content: center;
     text-transform: none;
     text-align: center;
+    margin-right: 170px;
   }
 
- 
+  .about .hire{
+    text-align: center;
+    justify-content: center;
+    margin-right: 160px;
+  }
 
   
   
