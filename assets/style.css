@@ -35,6 +35,10 @@
     box-sizing: border-box;    
 }
 
+body{
+  touch-action: none;
+}
+
 .name{
   color: #fea609;
   font-size: 25px;
@@ -1870,6 +1874,10 @@ textarea{
 
 @media only screen and (max-width:768px) and (min-width: 481px){
   
+  body{
+    touch-action: none;
+  }
+
   .name{
     color: #fea609;
     font-size: 25px;
@@ -2445,6 +2453,9 @@ textarea{
 
 
 @media only screen and (max-width:480px) and (min-width: 320px){
+  body{
+    touch-action: none;
+  }
   
   .name{
     color: #fea609;
