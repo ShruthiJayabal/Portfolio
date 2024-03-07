@@ -2452,6 +2452,7 @@ textarea{
 
   body {
     touch-action: manipulation;
+    -webkit-text-size-adjust: none;
   }
   
   .name{
