@@ -35,9 +35,6 @@
     box-sizing: border-box;    
 }
 
-body{
-  touch-action: none;
-}
 
 .name{
   color: #fea609;
