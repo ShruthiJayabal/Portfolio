@@ -2458,6 +2458,12 @@ textarea{
     touch-action:pan-y;
   }
 
+  @viewport{
+    zoom:1.0;
+    min-zoom:1.0;
+    max-zoom:1.0;
+  }
+
   .name{
     color: #fea609;
     font-size: 25px;
