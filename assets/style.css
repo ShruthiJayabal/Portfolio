@@ -2446,15 +2446,17 @@ textarea{
 
 
 @media only screen and (min-width:320px) and (max-width:480px){
- 
-
-  
-
   .name{
     color: #fea609;
     font-size: 25px;
     margin-left:25px;
   }
+
+  
+body{
+  position: fixed;
+}
+
   
   nav{
     display: flex;
