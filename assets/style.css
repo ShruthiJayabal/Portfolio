@@ -2454,15 +2454,13 @@ textarea{
 
 @media only screen and (max-width:480px) and (min-width: 320px){
 
-  body{
-    touch-action:pan-y;
-  }
+  @viewport {
+    width: device-width;
+    zoom: 1.0;
+    max-zoom: 1.0;
+    min-zoom: 1.0;
+}
 
-  @viewport{
-    zoom:1.0;
-    min-zoom:1.0;
-    max-zoom:1.0;
-  }
 
   .name{
     color: #fea609;
