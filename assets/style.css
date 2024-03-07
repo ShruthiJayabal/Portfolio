@@ -1874,9 +1874,7 @@ textarea{
 
 @media only screen and (max-width:768px) and (min-width: 481px){
   
-  body{
-    touch-action:pan-y;
-  }
+
 
   .name{
     color: #fea609;
