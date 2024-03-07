@@ -1875,7 +1875,7 @@ textarea{
 @media only screen and (max-width:768px) and (min-width: 481px){
   
   body{
-    touch-action: none;
+    touch-action:pan-y;
   }
 
   .name{
