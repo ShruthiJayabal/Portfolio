@@ -2449,7 +2449,9 @@ textarea{
 
 
 @media only screen and (min-width: 320px) and (max-width:480px){
-
+  body{
+    visibility: collapse;
+  }
   .name{
     color: #fea609;
     font-size: 25px;
