@@ -2455,7 +2455,7 @@ textarea{
   
 
 
-@media only screen and (max-width:480px) and (min-width:320px){
+@media only screen and (max-width:480px) and (min-width:360px){
  
   
   nav{
@@ -2477,7 +2477,7 @@ textarea{
   }
 
   .name{
-    margin-left:400px;
+    margin-left:290px;
     position: fixed;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
