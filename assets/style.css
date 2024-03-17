@@ -2466,7 +2466,7 @@ textarea{
   nav{
     display: flex;
     position: absolute;
-    width: 100%;
+    width:200px ;
     color: white;
     background-color: #151925;
     margin: auto;
@@ -2482,9 +2482,9 @@ textarea{
   }
 
   .name{
-    margin-left:750px;
+    margin-left:280px;
     position: fixed;
-    font-size: 35px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -2492,12 +2492,12 @@ textarea{
   .toggle-menu{
     display: block;
     top:35px;
-    left:25px;
+    left:15px;
     position: fixed;
   }
 
   ul{
-    font-size: 35px;
+    font-size: 10px;
     float:left;
     justify-content: start;
     flex-direction: column;
@@ -2506,8 +2506,8 @@ textarea{
     top: 50px;
     right: -300px;
     background:#151925;
-    width: 240px;
-    height: 460px;
+    width: 170px;
+    height: 320px;
     padding-top: 15px;
   }
 
@@ -2521,7 +2521,7 @@ textarea{
  
   ul li a{
     padding: 25px;
-    font-size: 40px;
+    font-size: 10px;
     width: 100%;
 
   }
@@ -2658,15 +2658,15 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:400px;
-    height: 400px;
+    width:200px;
+    height: 200px;
     text-align: center;  
     margin: 90px;
-    margin-left: 10px;
-    margin-top: 110px;
-    margin-right: 250px;
+    margin-left: 20px;
+    margin-top: 100px;
+    margin-right: 180px;
     border-radius:5500px;
-    box-shadow: 0 0 30px  30px #fea609;
+    box-shadow: 0 0 20px  20px #fea609;
     box-shadow: #fea609;
   }
 
