@@ -2482,7 +2482,7 @@ textarea{
   }
 
   .name{
-    margin-left:280px;
+    margin-left:300px;
     position: fixed;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -2506,7 +2506,7 @@ textarea{
     top: 50px;
     right: -300px;
     background:#151925;
-    width: 170px;
+    width: 150px;
     height: 320px;
     padding-top: 15px;
   }
@@ -2537,6 +2537,8 @@ textarea{
   
   .home{
     margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     position: relative;
   }
 
@@ -2551,7 +2553,7 @@ textarea{
   .home-content{
     background: #151925;
     width:921px;
-    height:1100px;
+    height:750px;
     display:grid;
     margin-top: 0px;
     margin-bottom: opx;
@@ -2560,9 +2562,9 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 70px;
+    font-size: 35px;
     margin-top:0px;
-    margin-right: 30px;
+    margin-right: 550px;
     text-align: center;
     font-weight: 530;
     font-family:'Times New Roman', Times, serif;
@@ -2661,11 +2663,10 @@ textarea{
     width:200px;
     height: 200px;
     text-align: center;  
-    margin: 90px;
-    margin-left: 20px;
-    margin-top: 100px;
-    margin-right: 180px;
-    border-radius:5500px;
+    margin-left: 10px;
+    margin-top: 80px;
+    margin-right: 625px;
+    margin-bottom: 0px;
     box-shadow: 0 0 20px  20px #fea609;
     box-shadow: #fea609;
   }
