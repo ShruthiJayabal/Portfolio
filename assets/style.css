@@ -2452,7 +2452,7 @@ textarea{
 
 
   
-
+/*
 
 @media only screen and (min-width:480px){
  
@@ -2522,7 +2522,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:100%;
+    width:480px;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -2545,7 +2545,7 @@ textarea{
   
   .home-content{
     background: #151925;
-    width:100%;
+    width:480px;
     height:700px;
     display:grid;
     margin-top: 0px;
@@ -2673,7 +2673,7 @@ textarea{
     order: 2;
 }
   
-  /* About */
+  
   
   .about-content{
     background:#323846;
@@ -2753,7 +2753,7 @@ textarea{
   
   
 
-  /* Skills */
+
   
   .skills-content{
     background-color: #151925;
@@ -2808,7 +2808,7 @@ textarea{
   
   
   
-  /*services*/
+
   
   .service-container{
     display: grid;
@@ -2875,7 +2875,7 @@ textarea{
   
   
   
-  /* Projects */
+
   
   .recent-works{
     background-color: #151925;
@@ -3011,7 +3011,7 @@ textarea{
   
   
   
-  /* Contact*/
+  
   
   
   .contact{
@@ -3109,7 +3109,7 @@ textarea{
 
 
 
-
+*/
 
 
 
