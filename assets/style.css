@@ -2823,7 +2823,7 @@ textarea{
   
   
   .services{
-    font-size: 50px;
+    font-size: 35px;
     color: #fea609;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2838,17 +2838,17 @@ textarea{
     border: 2px solid white;
     border-radius: 10px;
     gap:20px;
-    height:370px;
-    width:570px;
-    margin-left:170px;
-    margin-right:25px;
+    height:360px;
+    width:500px;
+    margin-left:40px;
+    margin-right:10px;
     text-align: center;
   }
   
   .container img{
     height:50px;
     width:60px;
-    margin-left: 250px;
+    margin-left: 220px;
     text-align: center;
     margin-top: 20px;
   }
@@ -2861,7 +2861,7 @@ textarea{
   
   
   .services-about{
-    font-size: 22px; 
+    font-size: 20px; 
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
@@ -2885,7 +2885,7 @@ textarea{
   }
   
   .works{
-    font-size: 50px;
+    font-size: 35px;
     color: #fea609;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2893,46 +2893,46 @@ textarea{
   
   .project-container{
     display: flex;
-    gap:35px;
+    gap:10px;
   }
   
   
   .container-block{
     display: grid;
-    gap:35px;
+    gap:10px;
     background: #151925;
     color: white;
     border: 2px solid white;
     border-radius: 10px;
-    height:565px;
-    width:410px;
-    margin-left:20px;
+    height:430px;
+    width:250px;
+    margin-left:15px;
     margin-right:20px;
     text-align: center;
   }
   
   .container-block img{
     height:120px;
-    width:350px;
-    margin-left: 25px;
+    width:205px;
+    margin-left: 20px;
     text-align: center;
     margin-top: 20px;
     border-radius: 10px;
   }
   
   .container-block .title{
-    font-size: 25px;
+    font-size: 15px;
     font-family:'Times New Roman', Times, serif;
     color: white;
   }
   
   
   .projects-about{
-    font-size: 15px; 
+    font-size: 13px; 
     font-family:'Times New Roman', Times, serif;
     font-weight: lighter;
     color: white;
-    line-height: 29px;
+    line-height: 18px;
     text-align: justify;
     text-transform: none;
     margin-left: 30px;
@@ -2942,12 +2942,12 @@ textarea{
   
    
   .container-block .live{
-    margin-top: 490px;
+    margin-top: 380px;
     margin-left: 30px;
     position: absolute;
-    font-size: 17px;
-    width:110px;
-    height:40px;
+    font-size: 13px;
+    width:70px;
+    height:30px;
     border-radius: 30px;
     color: white;
     background: #fea609;
@@ -2955,12 +2955,12 @@ textarea{
   
   
   .container-block .demo{
-    margin-top: 490px;
-    margin-left: 180px;
+    margin-top: 380px;
+    margin-left: 120px;
     position: absolute;
-    font-size: 17px;
-    width:110px;
-    height:40px;
+    font-size: 13px;
+    width:70px;
+    height:30px;
     border-radius: 30px;
     color: white;
     background: #fea609;
