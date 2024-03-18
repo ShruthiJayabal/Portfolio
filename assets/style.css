@@ -2692,11 +2692,11 @@ textarea{
   .img-box1 img{
     position: relative;
     border-radius:50%;
-    width:400px;
-    height: 400px;
+    width:200px;
+    height: 200px;
     float:center;
     margin-top: 50px;
-    margin-left:250px;
+    margin-left:140px;
     border-radius:5500px;
     border: 10px solid #fea609;
   }
@@ -2710,7 +2710,7 @@ textarea{
   .about-me{
     text-align: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     margin-right: 160px;
     font-family:'Times New Roman', Times, serif;
@@ -2725,11 +2725,11 @@ textarea{
   
   .tag{
     text-align: center;
-    font-size: 30px;
+    font-size: 22px;
     font-family:'Times New Roman', Times, serif;
     color: white;
     margin-top: 12px;
-    margin-right: 160px;
+    
   }
   
   .description{
@@ -2741,7 +2741,8 @@ textarea{
     justify-content: center;
     text-transform: none;
     text-align: center;
-    margin-right: 170px;
+    margin-right: 50px;
+
   }
 
   .about .hire{
