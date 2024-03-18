@@ -2524,7 +2524,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:921px;
+    width:480px;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -2679,7 +2679,7 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:921px;
+    width:480px;
     margin-top: 0px;
     height:1300px;
     display: grid;
@@ -2756,7 +2756,7 @@ textarea{
   
   .skills-content{
     background-color: #151925;
-    width:921px;
+    width:480px;
     height:760px;
   }
   
@@ -2814,7 +2814,7 @@ textarea{
   
   .services-content{
     background-color: #323846;
-    width:921px;
+    width:480px;
     height:1500px; 
   }
   
@@ -2876,7 +2876,7 @@ textarea{
   
   .recent-works{
     background-color: #151925;
-    width:921px;
+    width:480px;
     height:830px;
   
   }
@@ -3000,7 +3000,7 @@ textarea{
   
   .contact{
     background-color:  #323846;
-    width:921px;
+    width:480px;
     height:860px;
   
   }
