@@ -2493,7 +2493,6 @@ textarea{
   }
 
   ul{
-    font-size: 10px;
     float:left;
     justify-content: start;
     flex-direction: column;
@@ -2502,8 +2501,8 @@ textarea{
     top: 50px;
     right: -300px;
     background:#151925;
-    width: 150px;
-    height: 320px;
+    width: 130px;
+    height: 300px;
     padding-top: 15px;
   }
 
@@ -2515,9 +2514,9 @@ textarea{
     width: 100%;
   }
  
-  ul li a{
+  nav ul li a{
     padding: 25px;
-    font-size: 10px;
+    font-size: 11px;
     width: 100%;
 
   }
@@ -2541,7 +2540,7 @@ textarea{
   .icons{
     text-align: center;
     justify-content: center;
-    margin-right: 30px;
+    margin-right: 60px;
 
   }
 
@@ -2549,7 +2548,7 @@ textarea{
   .home-content{
     background: #151925;
     width:385px;
-    height:740px;
+    height:700px;
     display:grid;
     margin-top: 0px;
     margin-bottom: opx;
@@ -2558,9 +2557,9 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 35px;
+    font-size: 30px;
     margin-top:0px;
-    margin-right: 50px;
+    margin-right: 90px;
     text-align: center;
     font-weight: 530;
     font-family:'Times New Roman', Times, serif;
@@ -2569,9 +2568,9 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 25px;
+    font-size: 15px;
     margin-top:10px;
-    margin-right: 50px;
+    margin-right: 90px;
     font-weight: 550;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2580,9 +2579,9 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 16px;
+    font-size: 15px;
     margin-top:10px;
-    margin-right: 60px;
+    margin-right: 90px;
     font-family:'Times New Roman', Times, serif;
     text-transform: none;
     line-height: 20px;
@@ -2590,9 +2589,9 @@ textarea{
   }
   
   button{
-    width:160px;
-    font-size: 15px;
-    height:40px;
+    width:120px;
+    font-size: 12px;
+    height:30px;
     border-radius: 30px;
     color:white;
     background-color: #fea609; 
@@ -2601,9 +2600,9 @@ textarea{
   
   
   .btn{
-    font-size: 15px;
-    width:115px;
-    height:40px;
+    font-size: 12px;
+    width:70px;
+    height:30px;
     margin-right: 40px;
     border-radius: 30px;
     color:white;
@@ -2612,19 +2611,19 @@ textarea{
   }
 
   .hire{
-    font-size: 20px;
-    width:115px;
-    height:50px;
-    margin-right: 70px;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    margin-right: 80px;
     border-radius: 30px;
     color:white;
     background: #fea609;
   }
 
   button:hover{
-    width:176px;
-    font-size: 20px;
-    height:50px;
+    width:120px;
+    font-size: 12px;
+    height:30px;
     border-radius: 30px;
     border: 3px solid #fea609;
     color:white;
@@ -2632,10 +2631,10 @@ textarea{
   }
   
   .btn:hover{
-    font-size: 20px;
-    width:115px;
-    height:50px;
-    margin-right: 70px;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    margin-right: 40px;
     border-radius: 30px;
     border: 3px solid #fea609;
     color: #fea609;
@@ -2643,10 +2642,10 @@ textarea{
   }
 
   .hire:hover{
-    font-size: 20px;
-    width:115px;
-    height:50px;
-    margin-right: 70px;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    margin-right: 80px;
     border-radius: 30px;
     border: 3px solid #fea609;
     color: #fea609;
@@ -2656,14 +2655,14 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:250px;
-    height:250px;
+    width:170px;
+    height:170px;
     text-align: center;  
     margin-left: 10px;
     margin-top: 80px;
-    margin-right: 165px;
+    margin-right: 130px;
     margin-bottom: 0px;
-    box-shadow: 0 0 20px  20px #fea609;
+    box-shadow: 0 0 18px  18px #fea609;
     box-shadow: #fea609;
   }
 
