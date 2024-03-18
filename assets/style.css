@@ -2525,7 +2525,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:480px;
+    width:370px;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -2548,7 +2548,7 @@ textarea{
   
   .home-content{
     background: #151925;
-    width:576px;
+    width:370px;
     height:740px;
     display:grid;
     margin-top: 0px;
@@ -2680,7 +2680,7 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:300px;
+    width:370px;
     margin-top: 0px;
     height:1100px;
     display: grid;
