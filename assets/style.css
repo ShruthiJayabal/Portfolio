@@ -2478,7 +2478,7 @@ textarea{
   }
 
   .name{
-    margin-left:400px;
+    margin-left:300px;
     position: fixed;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -2525,7 +2525,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:576px;
+    width:480px;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -2680,7 +2680,7 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:576px;
+    width:480px;
     margin-top: 0px;
     height:1100px;
     display: grid;
