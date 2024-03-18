@@ -2478,7 +2478,7 @@ textarea{
   }
 
   .name{
-    margin-left:400px;
+    margin-left:500px;
     position: fixed;
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
@@ -2549,7 +2549,7 @@ textarea{
   .home-content{
     background: #151925;
     width:576px;
-    height:700px;
+    height:740px;
     display:grid;
     margin-top: 0px;
     margin-bottom: opx;
@@ -2558,7 +2558,7 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 30px;
+    font-size: 35px;
     margin-top:0px;
     margin-right: 50px;
     text-align: center;
@@ -2569,9 +2569,9 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 19px;
+    font-size: 25px;
     margin-top:10px;
-    margin-right: 70px;
+    margin-right: 50px;
     font-weight: 550;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2580,9 +2580,9 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 13px;
+    font-size: 16px;
     margin-top:10px;
-    margin-right: 55px;
+    margin-right: 60px;
     font-family:'Times New Roman', Times, serif;
     text-transform: none;
     line-height: 20px;
@@ -2656,12 +2656,12 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:200px;
-    height:200px;
+    width:250px;
+    height:250px;
     text-align: center;  
     margin-left: 10px;
     margin-top: 80px;
-    margin-right: 140px;
+    margin-right: 165px;
     margin-bottom: 0px;
     box-shadow: 0 0 20px  20px #fea609;
     box-shadow: #fea609;
@@ -2682,7 +2682,7 @@ textarea{
     background:#323846;
     width:576px;
     margin-top: 0px;
-    height:1300px;
+    height:1100px;
     display: grid;
     column-gap: 0;
     align-items: center;
@@ -2692,11 +2692,11 @@ textarea{
   .img-box1 img{
     position: relative;
     border-radius:50%;
-    width:200px;
-    height: 200px;
+    width:250px;
+    height: 250px;
     float:center;
     margin-top: 50px;
-    margin-left:140px;
+    margin-left:165px;
     border-radius:5500px;
     border: 10px solid #fea609;
   }
@@ -2710,9 +2710,9 @@ textarea{
   .about-me{
     text-align: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 35px;
     color: white;
-    margin-right: 160px;
+    margin-right: 90px;
     font-family:'Times New Roman', Times, serif;
   }
   
@@ -2729,11 +2729,12 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     color: white;
     margin-top: 12px;
+    margin-right: 90px;
     
   }
   
   .description{
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 40px;
     font-family:'Times New Roman', Times, serif;
     color: white;
@@ -2741,14 +2742,14 @@ textarea{
     justify-content: center;
     text-transform: none;
     text-align: center;
-    margin-right: 50px;
+    margin-right: 90px;
 
   }
 
   .about .hire{
     text-align: center;
     justify-content: center;
-    margin-right: 160px;
+    margin-right: 90px;
   }
 
   
@@ -2759,11 +2760,11 @@ textarea{
   .skills-content{
     background-color: #151925;
     width:576px;
-    height:760px;
+    height:710px;
   }
   
   .skills{
-    font-size: 50px;
+    font-size: 35px;
     color: white;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -2777,17 +2778,17 @@ textarea{
   
   .box-container{
     display: flex;
-    gap:30px;
+    gap:10px;
   }
   
   .box-container .box{
     color: #151925;
     border: 2px solid white;
     border-radius: 10px;
-    gap:30px;
-    height:150px;
-    width:160px;
-    margin-left:38px;
+    gap:10px;
+    height:120px;
+    width:110px;
+    margin-left:20px;
     text-align: center;
   }
   
@@ -2800,7 +2801,7 @@ textarea{
   .box-container .box .icons-name{
     color:white;
     margin-top:40px;
-    font-size: 25px;
+    font-size: 22px;
     font-weight:549;
     font-family:'Times New Roman', Times, serif;
   }
