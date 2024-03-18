@@ -2454,7 +2454,7 @@ textarea{
   
 
 
-@media only screen and (max-width:480px){
+@media only screen and (min-width:480px){
  
   
   nav{
@@ -2522,7 +2522,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:480px;
+    width:100%;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -2545,7 +2545,7 @@ textarea{
   
   .home-content{
     background: #151925;
-    width:480px;
+    width:100%;
     height:700px;
     display:grid;
     margin-top: 0px;
