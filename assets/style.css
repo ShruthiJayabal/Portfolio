@@ -3342,7 +3342,7 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:385px;
+    width:100%;
     margin-top: 0px;
     height:720px;
     display: grid;
@@ -3422,7 +3422,7 @@ textarea{
   
   .skills-content{
     background-color: #151925;
-    width:385px;
+    width:100%;
     height:500px;
   }
   
@@ -3482,7 +3482,7 @@ textarea{
   
   .services-content{
     background-color: #323846;
-    width:385px;
+    width:100%;
     height:1350px; 
   }
   
@@ -3544,7 +3544,7 @@ textarea{
   
   .recent-works{
     background-color: #151925;
-    width:385px;
+    width:100%;
     height:1020px;
   
   }
@@ -3681,7 +3681,7 @@ textarea{
   
   .contact{
     background-color:  #323846;
-    width:385px;
+    width:100%;
     height:720px;
   
   }
