@@ -2461,7 +2461,7 @@ textarea{
 
 
 
-@media only screen and (max-device-width: 480px)  and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait){
+@media only screen and (max-device-width: 480px){
  
   
   nav{
@@ -2483,7 +2483,7 @@ textarea{
   }
 
   .name{
-    margin-left:485px;
+    margin-left:285px;
     position: fixed;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
