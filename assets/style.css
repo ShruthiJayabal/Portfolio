@@ -2483,7 +2483,7 @@ textarea{
   }
 
   .name{
-    margin-left:285px;
+    margin-left:355px;
     position: fixed;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
@@ -2562,9 +2562,10 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 35px;
-    margin-top:0px;
-    margin-right: 60px;
+    font-size: 30px;
+    margin-top:380px;
+    margin-right: 50px;
+    justify-content: center;
     text-align: center;
     font-weight: 530;
     font-family:'Times New Roman', Times, serif;
@@ -2573,7 +2574,7 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 17px;
+    font-size: 20px;
     margin-top:10px;
     margin-right: 60px;
     font-weight: 550;
@@ -2584,7 +2585,7 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 16px;
+    font-size: 15px;
     margin-top:10px;
     margin-right: 60px;
     font-family:'Times New Roman', Times, serif;
@@ -2690,13 +2691,14 @@ textarea{
   }
   
   .img-box1 img{
-    position: relative;
+    position: absolute;
     border-radius:50%;
-    width:170px;
-    height: 170px;
+    width:240px;
+    height: 240px;
     float:center;
     margin-top: 50px;
-    margin-left:90px;
+    justify-content: center;
+    text-align: center;
     border-radius:5500px;
     border: 8px solid #fea609;
   }
