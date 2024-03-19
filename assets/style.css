@@ -3119,7 +3119,7 @@ textarea{
 
 
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:576px){
  
   
   nav{
@@ -3141,9 +3141,9 @@ textarea{
   }
 
   .name{
-    margin-left:280px;
+    margin-left:485px;
     position: fixed;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -3164,7 +3164,7 @@ textarea{
     top: 50px;
     right: -300px;
     background:#151925;
-    width: 130px;
+    width: 160px;
     height: 300px;
     padding-top: 15px;
   }
@@ -3179,7 +3179,7 @@ textarea{
  
   nav ul li a{
     padding: 25px;
-    font-size: 11px;
+    font-size: 15px;
     width: 100%;
 
   }
@@ -3187,7 +3187,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:370px;
+    width:100%;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -3203,14 +3203,14 @@ textarea{
   .icons{
     text-align: center;
     justify-content: center;
-    margin-right: 50px;
+    margin-right: 40px;
 
   }
 
   
   .home-content{
     background: #151925;
-    width:385px;
+    width:100%;
     height:700px;
     display:grid;
     margin-top: 0px;
@@ -3220,9 +3220,9 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 30px;
+    font-size: 35px;
     margin-top:0px;
-    margin-right: 80px;
+    margin-right: 60px;
     text-align: center;
     font-weight: 530;
     font-family:'Times New Roman', Times, serif;
@@ -3231,9 +3231,9 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 15px;
+    font-size: 17px;
     margin-top:10px;
-    margin-right: 80px;
+    margin-right: 60px;
     font-weight: 550;
     text-align: center;
     font-family:'Times New Roman', Times, serif;
@@ -3242,9 +3242,9 @@ textarea{
   .bio{
     position: relative;
     color:white;
-    font-size: 15px;
+    font-size: 16px;
     margin-top:10px;
-    margin-right: 80px;
+    margin-right: 60px;
     font-family:'Times New Roman', Times, serif;
     text-transform: none;
     line-height: 20px;
@@ -3318,12 +3318,12 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:170px;
-    height:170px;
+    width:240px;
+    height:240px;
     text-align: center;  
     margin-left: 10px;
     margin-top: 80px;
-    margin-right: 120px;
+    margin-right: 165px;
     margin-bottom: 0px;
     box-shadow: 0 0 18px  18px #fea609;
     box-shadow: #fea609;
