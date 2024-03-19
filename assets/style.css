@@ -2461,9 +2461,19 @@ textarea{
 
 
 
-@media only screen and (max-device-width: 480px){
+@media only screen and (max-device-width: 600px){
  
+  html{
+    scroll-behavior: smooth;
+  }
   
+  body{
+    width:100%;
+    min-height: 100vh;
+    height:1000px;
+    overflow-x: hidden;
+    position: relative;
+  }
   nav{
     display: flex;
     position: absolute;
