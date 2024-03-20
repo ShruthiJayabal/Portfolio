@@ -1890,7 +1890,7 @@ textarea{
   nav{
     display: flex;
     position: fixed;
-    width: 100%;
+    width: 990px;
     color: white;
     background-color: #151925;
     margin: auto;
@@ -1924,7 +1924,7 @@ textarea{
   
   .header{
     background: #151925;
-    width:100%;
+    width:990px;
     height:60px;
   }
   
@@ -1936,7 +1936,7 @@ textarea{
   .home-content{
     display:flex;
     background: #151925;
-    width:1101px;
+    width:990px;
     height:450px;
   }
   
@@ -2031,11 +2031,11 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:230px;
-    height: 230px;
+    width:200px;
+    height: 200px;
     float:right;
     margin-top: 110px;
-    margin-left: 120px;
+    margin-left: 40px;
     border-radius:5500px;
     box-shadow: 0 0 30px  20px #fea609;
     box-shadow: #fea609;
@@ -2045,7 +2045,7 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:1101px;
+    width:990px;
     height:650px;
     display: flex;
     margin-top: 0px;
@@ -2106,7 +2106,7 @@ textarea{
   
   .skills-content{
     background-color: #151925;
-    width:1101px;
+    width:990px;
     height:740px;
     margin-top: 0px;
   }
@@ -2165,7 +2165,7 @@ textarea{
   
   .services-content{
     background-color: #323846;
-    width:1101px;
+    width:990px;
     height:700px; 
   }
   
@@ -2229,7 +2229,7 @@ textarea{
   
   .recent-works{
     background-color: #151925;
-    width:1101px;
+    width:990px;
     height:740px;
   
   }
@@ -2352,7 +2352,7 @@ textarea{
   
   .contact{
     background-color:  #323846;
-    width:1101px;
+    width:990px;
     height:820px;
   
   }
@@ -2448,6 +2448,657 @@ textarea{
 
 
 
+@media only screen and (max-width: 480px) and (min-width:361px){
+  html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    width:100%;
+    min-height: 100vh;
+    height:1000px;
+    overflow-x: hidden;
+    position: relative;
+  }
+  nav{
+    display: flex;
+    position: absolute;
+    width:200px ;
+    color: white;
+    background-color: #151925;
+    margin: auto;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+    margin-bottom: 0px;
+  }
+  
+  nav ul li a:hover{
+    color:#fea609; 
+  }
+
+  .name{
+    margin-left:410px;
+    position: fixed;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .hamburger,
+  .toggle-menu{
+    display: block;
+    top:35px;
+    left:15px;
+    position: fixed;
+  }
+
+  ul{
+    float:left;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 50px;
+    right: -300px;
+    background:#151925;
+    width: 140px;
+    height: 310px;
+    padding-top: 20px;
+  }
+
+  ul:hover{
+    color: #fea609;
+  }
+
+  ul li{
+    width: 100%;
+  }
+ 
+  nav ul li a{
+    padding: 20px;
+    font-size: 15px;
+    width: 100%;
+
+  }
+
+  .header{
+    column-gap: 0cap;
+    background: #151925;
+    width:100%;
+    height:65px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  
+  .home{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    position: relative;
+  }
+
+  .img-box{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .icons{
+    text-align: center;
+    justify-content: center;
+  }
+
+  
+  .home-content{
+    background: #151925;
+    width:100%;
+    height:670px;
+    display:grid;
+    margin-top: 0px;
+    margin-bottom: opx;
+  }
+  
+  .heading{
+    position: relative;
+    color:white;
+    font-size: 27px;
+    margin-top:320px;
+    justify-content: center;
+    text-align: center;
+    font-weight: 530;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .portfolio{
+    position: relative;
+    color:#fea609;
+    font-size: 20px;
+    margin-top:10px;
+    font-weight: 550;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .bio{
+    position: relative;
+    color:white;
+    font-size: 13px;
+    margin-top:10px;
+    font-family:'Times New Roman', Times, serif;
+    text-transform: none;
+    line-height: 20px;
+    text-align:center;
+  }
+  
+  button{
+    width:120px;
+    font-size: 12px;
+    height:30px;
+    border-radius: 30px;
+    color:white;
+    background-color: #fea609; 
+    text-decoration:none; 
+  }
+  
+  
+  .btn{
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color:white;
+    background: #fea609;
+    text-decoration: none;
+  }
+
+  .hire{
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color:white;
+    background: #fea609;
+  }
+
+  button:hover{
+    width:120px;
+    font-size: 12px;
+    height:30px;
+    border-radius: 30px;
+    border: 3px solid #fea609;
+    color:white;
+    background:#151925;
+  }
+  
+  .btn:hover{
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    border: 3px solid #fea609;
+    color: #fea609;
+    background:#151925;
+  }
+
+  .hire:hover{
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    border: 3px solid #fea609;
+    color: #fea609;
+    background:#323846;
+  }
+  
+  .img-box img{
+    position: absolute;
+    border-radius:50%;
+    width:220px;
+    height:220px;
+    text-align: center;  
+    justify-content: center;
+    box-shadow: 0 0 18px  18px #fea609;
+    box-shadow: #fea609;
+  }
+
+  .home-content{
+    grid-template-columns: 1fr;
+    row-gap: 2rem;
+    justify-content: center;
+}
+.home{
+    order: 2;
+}
+  
+  /* About */
+  
+  .about-content{
+    background:#323846;
+    width:100%;
+    margin-top: 0px;
+    height:780px;
+    display: grid;
+    column-gap: 0;
+    margin-left: 0px;
+  }
+
+  .img-box1{
+    margin-left: 40px;
+    margin-right: 50px;
+  }
+  
+  .img-box1 img{
+    position: absolute;
+    border-radius:50%;
+    width:220px;
+    height:220px;
+    margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    border-radius:5500px;
+    border: 8px solid #fea609;
+  }
+  
+  .about{
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 220px;
+    margin-right: 50px;
+  }
+  
+  .about-me{
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  
+  .about-me span{
+    color: #fea609;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .tag{
+    text-align: center;
+    font-size: 22px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 12px; 
+  }
+  
+  .description{
+    font-size: 15px;
+    margin-top: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    line-height: 24px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .about .hire{
+    text-align: center;
+    justify-content: center;
+    margin-top: 0px;
+  }
+
+  
+  
+
+  /* Skills */
+  
+  .skills-content{
+    background-color: #151925;
+    width:100%;
+    height:500px;
+  }
+  
+  .skills{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  
+  .skills span{
+    color: #fea609;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .box-container{
+    display: flex;
+    gap:10px;
+  }
+  
+  .box-container .box{
+    color: #151925;
+    border: 2px solid white;
+    border-radius: 10px;
+    gap:10px;
+    height:75px;
+    width:90px;
+    margin-left:11px;
+    margin-right:11px;
+    text-align: center;
+  }
+  
+  .box-container .box img{
+    text-align: center;
+    margin-top: 5px;
+    height: 60px;
+    width: 60px;
+  }
+  
+  
+  .box-container .box .icons-name{
+    color:white;
+    margin-top:10px;
+    font-size: 15px;
+    font-weight:549;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  
+  
+  /*services*/
+  
+  .service-container{
+    display: grid;
+    gap:35px;
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+  
+  .services-content{
+    background-color: #323846;
+    width:100%;
+    height:1350px; 
+  }
+  
+  
+  .services{
+    font-size: 30px;
+    color: #fea609;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  
+  
+  .container{
+    display: grid;
+    background: #151925;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    gap:20px;
+    height:340px;
+    width:360px;
+    text-align: center;
+  }
+  
+  .container img{
+    height:50px;
+    width:60px;
+    margin-left: 150px;
+    margin-right:150px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .container .title{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  
+  .services-about{
+    font-size: 16px; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+    line-height: 25px;
+    text-align: justify;
+    text-transform: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 250px;
+  }
+  
+  
+  
+  /* Projects */
+  
+  .recent-works{
+    background-color: #151925;
+    width:100%;
+    height:1020px;
+  
+  }
+  
+  .works{
+    font-size: 30px;
+    color: #fea609;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .project-container{
+    display: grid;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  
+
+  
+  
+  .container-block{
+    display: grid;
+    gap:10px;
+    background: #151925;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    height:380px;
+    width:370px;
+    margin-left:20px;
+    margin-right:20px;
+    text-align: center;
+  }
+  
+  .container-block img{
+    height:120px;
+    width:305px;
+    margin-left: 30px;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+  .container-block .title{
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+  }
+  
+  
+  .projects-about{
+    font-size: 14px; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: lighter;
+    color: white;
+    line-height: 20px;
+    text-align: justify;
+    text-transform: none;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 250px;
+  }
+  
+   
+  .container-block .live{
+    margin-top: 330px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color: white;
+    background: #fea609;
+  }
+  
+  
+  .container-block .demo{
+    margin-top: 330px;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color: white;
+    background: #fea609;
+  }
+
+
+    
+  .container-block .live:hover{
+    margin-top: 330px;
+    margin-left: 30px;
+    position: absolute;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color: #fea609;
+    border: 3px solid #fea609;
+    background: #151925;
+  }
+  
+  
+  .container-block .demo:hover{
+    margin-top: 330px;
+    margin-left: 120px;
+    position: absolute;
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color: #fea609;
+    border: 3px solid #fea609;
+    background: #151925;
+  }
+  
+  
+  
+  
+  /* Contact*/
+  
+  
+  .contact{
+    background-color:  #323846;
+    width:100%;
+    height:720px;
+  
+  }
+  
+  .details{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .details span{
+    color: #fea609;
+    font-family:'Times New Roman', Times, serif;
+  }
+  
+  .contact-wrapper{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+  }
+  
+  input{
+    color:white;
+    border: 2px solid white;
+    background-color: #323846;
+    width:300px;
+    height:50px;
+    border-radius: 10px;
+    padding: 12px;
+  }
+  
+  
+  textarea{
+    color:white;
+    border: 2px solid white;
+    background-color: #323846;
+    width:300px;
+    height:90px;
+    padding: 12px;
+    border-radius: 10px;
+  }
+  
+  .send{
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color: white;
+    background: #fea609;
+    margin-right: 220px;
+  }
+  
+
+  .send:hover{
+    font-size: 12px;
+    width:70px;
+    height:30px;
+    border-radius: 30px;
+    color: #fea609;
+    background: #323846;
+    border: 3px solid #fea609;
+    margin-right: 420px;
+  }
+  
+  
+  .contact-me{
+    text-align: center;
+    margin-right:50px;
+    margin-left: 50px;
+  }
+
+  .rights{
+    text-align: center;
+    color:white;
+    font-size: 13px;
+    margin-right: 20px;
+  }
+
+  .update{
+    text-align: center;
+    color:white;
+    font-size: 10px;
+    margin-right: 20px;
+  
+  }
+  
+
+}
 
 
 
@@ -2461,7 +3112,7 @@ textarea{
 
 
 
-@media only screen and (max-device-width: 600px){
+@media only screen and (max-device-width: 360px){
  
   html{
     scroll-behavior: smooth;
@@ -2493,9 +3144,9 @@ textarea{
   }
 
   .name{
-    margin-left:355px;
+    margin-left:290px;
     position: fixed;
-    font-size: 25px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
 
@@ -2516,8 +3167,8 @@ textarea{
     top: 50px;
     right: -300px;
     background:#151925;
-    width: 160px;
-    height: 300px;
+    width: 110px;
+    height: 290px;
     padding-top: 15px;
   }
 
@@ -2531,7 +3182,7 @@ textarea{
  
   nav ul li a{
     padding: 25px;
-    font-size: 15px;
+    font-size: 10px;
     width: 100%;
 
   }
@@ -2563,7 +3214,7 @@ textarea{
   .home-content{
     background: #151925;
     width:100%;
-    height:700px;
+    height:670px;
     display:grid;
     margin-top: 0px;
     margin-bottom: opx;
@@ -2572,8 +3223,8 @@ textarea{
   .heading{
     position: relative;
     color:white;
-    font-size: 30px;
-    margin-top:380px;
+    font-size: 27px;
+    margin-top:220px;
     margin-right: 50px;
     justify-content: center;
     text-align: center;
@@ -2584,7 +3235,7 @@ textarea{
   .portfolio{
     position: relative;
     color:#fea609;
-    font-size: 20px;
+    font-size: 14px;
     margin-top:10px;
     margin-right: 60px;
     font-weight: 550;
@@ -2671,8 +3322,9 @@ textarea{
   .img-box img{
     position: absolute;
     border-radius:50%;
-    width:240px;
-    height:240px;
+    width:170px;
+    height:170px;
+    margin: 90px;
     text-align: center;  
     justify-content: center;
     box-shadow: 0 0 18px  18px #fea609;
@@ -2703,8 +3355,8 @@ textarea{
   .img-box1 img{
     position: absolute;
     border-radius:50%;
-    width:240px;
-    height: 240px;
+    width:170px;
+    height: 170px;
     float:center;
     margin-top: 50px;
     justify-content: center;
@@ -2714,10 +3366,10 @@ textarea{
   }
   
   .about{
-    margin-left: 30px;
+  
     text-align: center;
-    margin-left: 45px;
-    margin-top: 0px;
+    margin-left: 50px;
+    margin-top: 220px;
   }
   
   .about-me{
@@ -2726,7 +3378,7 @@ textarea{
     font-size: 30px;
     color: white;
     margin-left: 0px;
-    margin-right: 70px;
+    margin-right: 60px;
     font-family:'Times New Roman', Times, serif;
   }
   
@@ -2743,7 +3395,7 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     color: white;
     margin-top: 12px;
-    margin-right: 70px;
+    margin-right: 50px;
     
   }
   
@@ -2754,7 +3406,7 @@ textarea{
     font-family:'Times New Roman', Times, serif;
     color: white;
     line-height: 20px;
-    margin-right: 70px;
+    margin-right: 50px;
     margin-left: 0px;
 
   }
@@ -2763,7 +3415,7 @@ textarea{
     text-align: center;
     justify-content: center;
     margin-top: 20px;
-    margin-right: 90px;
+    margin-right: 50px;
   }
 
   
