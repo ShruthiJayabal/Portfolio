@@ -1890,7 +1890,7 @@ textarea{
   nav{
     display: flex;
     position: fixed;
-    width: 990px;
+    width:100%ss;
     color: white;
     background-color: #151925;
     margin: auto;
@@ -1908,7 +1908,7 @@ textarea{
   nav ul li a {
     text-decoration: none;
     color:white;
-    margin-right: 20px;
+    margin-right: 0px;
     background-color:  #151925;
     font-weight: 400;
     font-size: 18px;
@@ -1924,7 +1924,7 @@ textarea{
   
   .header{
     background: #151925;
-    width:990px;
+    width:100%;
     height:60px;
   }
   
@@ -1936,7 +1936,7 @@ textarea{
   .home-content{
     display:flex;
     background: #151925;
-    width:990px;
+    width:100%;
     height:450px;
   }
   
@@ -2031,8 +2031,8 @@ textarea{
   .img-box img{
     position: relative;
     border-radius:50%;
-    width:200px;
-    height: 200px;
+    width:220px;
+    height: 220px;
     float:right;
     margin-top: 110px;
     margin-left: 40px;
@@ -2045,7 +2045,7 @@ textarea{
   
   .about-content{
     background:#323846;
-    width:990px;
+    width:100%;
     height:650px;
     display: flex;
     margin-top: 0px;
@@ -2106,7 +2106,7 @@ textarea{
   
   .skills-content{
     background-color: #151925;
-    width:990px;
+    width:100%;
     height:740px;
     margin-top: 0px;
   }
@@ -2165,7 +2165,7 @@ textarea{
   
   .services-content{
     background-color: #323846;
-    width:990px;
+    width:100%;
     height:700px; 
   }
   
@@ -2229,7 +2229,7 @@ textarea{
   
   .recent-works{
     background-color: #151925;
-    width:990px;
+    width:100%;
     height:740px;
   
   }
@@ -2352,7 +2352,7 @@ textarea{
   
   .contact{
     background-color:  #323846;
-    width:990px;
+    width:100%;
     height:820px;
   
   }
@@ -2479,8 +2479,9 @@ textarea{
   }
 
   .name{
+
     margin-left:410px;
-    position: fixed;
+   
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -2540,8 +2541,8 @@ textarea{
   }
 
   .img-box{
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
   }
 
   .icons{
