@@ -3869,7 +3869,7 @@ textarea{
   .header{
     column-gap: 0cap;
     background: #151925;
-    width:400px;
+    width:450px;
     height:65px;
     margin-bottom: 0px;
     margin-top: 0px;
@@ -4240,21 +4240,11 @@ textarea{
   
   .project-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-    overflow-y: auto;
-    overflow-y: hidden;
+    
 
   }
 
-  .project-container::-webkit-scrollbar{
-    width:0;
-    height: 0.1px;
-    color:whitesmoke;
-    background-color: whitesmoke;
-    border: 1px solid whitesmoke;
-    margin-left: 0px;
-}
-
+  
   
   
   .container-block{
